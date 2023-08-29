@@ -8,10 +8,10 @@ This workshop is intended for developers and solution builders.
 
 What’s included in this workshop:
 
-Semantic Similarity Search [Estimated time to complete - 30 mins]
-Semantic Similarity Search with Metadata Filtering [Estimated time to complete - 30 mins]
-K-Nearest Neighbor (KNN) Search with Document Summaries [Estimated time to complete - 30 mins]
-Semantic Similar Search with Re-Ranking [Estimated time to complete - 30 mins]
+* Semantic Similarity Search [Estimated time to complete - 30 mins]
+* Semantic Similarity Search with Metadata Filtering [Estimated time to complete - 30 mins]
+* K-Nearest Neighbor (KNN) Search with Document Summaries [Estimated time to complete - 30 mins]
+* Semantic Similar Search with Re-Ranking [Estimated time to complete - 30 mins]
 
 Here is an overview of the end-to-end RAG workflow:
 
