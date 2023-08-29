@@ -15,4 +15,4 @@ What’s included in this workshop:
 
 Here is an overview of the end-to-end RAG workflow:
 
-![](img/overview.png)
+![](img/rag_overview.png)
