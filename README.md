@@ -38,7 +38,7 @@ The key abstractions used in this workshop are as follows:
 
 * **Vector Store**: FAISS, LlamaIndex, ChromaDB - available through LangChain
 
-  In this notebook we are using this in-memory vector-store to store both the embeddings and the documents. In an enterprise context this could be replaced with a persistent store such as AWS OpenSearch, RDS Postgres with pgVector, ChromaDB, Pinecone or Weaviate.
+  Most labs use an in-memory vector-store to store both the docuemnts and their embeddings. In an enterprise context this could be replaced with a persistent store such as AWS OpenSearch, RDS Postgres with pgVector, ChromaDB, Pinecone or Weaviate.
 
 * **Chunking**: Splits of data
 
