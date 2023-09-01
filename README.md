@@ -74,5 +74,5 @@ When ingesting data into your system, you can add optional metadata such as "yea
 ## [K-Nearest Neighbor (KNN) Search with Document Summaries](04_KNN_with_Document_Summaries/) [30 mins]
 When ingesting your documents, you can build an index of document summaries along with the document. These summaries can be used by the Semantic Similarity Search algorithm (e.g. K-Nearest Neighbor) to improve retrieval results and reduce retrieval latency.
 
-## [Semantic Similar Search with Re-Ranking](05_Semantic_Search_with_Reranking/) [30 mins]
+## [Semantic Similarity Search with Re-Ranking](05_Semantic_Search_with_Reranking/) [30 mins]
 You can improve result relevancy by adding an extra re-rank step in the retrieval process. The re-ranking often includes a diversification factor to introduce a bit of diversity in the results. This allows for some results to rank higher - even if they're not scored highest by the Semantic Similarity Search algorithm.
