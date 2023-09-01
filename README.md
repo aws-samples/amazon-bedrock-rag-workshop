@@ -62,6 +62,9 @@ Below is a high-level overview of the labs in this workshop which follow the RAG
 
 ![](img/rag-overview.png)
 
+## [Introduction](01_Intro/) [5 mins]
+Introduction to the lab environment which includes prerequisites.
+
 ## [Semantic Similarity Search](02_Semantic_Search/) [30 mins]
 Semantic search uses vector embedding representations of documents to perform searches in higher-dimensional vector spaces. Semantic Similarity Search often out performs basic keyword search which simply compares the number of keywords and phrases shared between documents.
 
