@@ -71,7 +71,7 @@ Semantic search uses vector embedding representations of documents to perform se
 ## [Semantic Similarity Search with Metadata Filtering](03_Semantic_Search_with_Metadata_Filtering/) [30 mins]
 When ingesting data into your system, you can add optional metadata such as "year" or "department".  This metadata can be used to filter your queries when retrieving documents through Semantic Similarity Search, for example. This reduces the data used to augment the prompt - and ultimately helps to improve the relevancy of the results from the LLM.
 
-## [K-Nearest Neighbor (KNN) Search with Document Summaries](04_KNN_with_Document_Summaries/) [30 mins]
+## [Semantic Similarity Search with Document Summaries](04_KNN_with_Document_Summaries/) [30 mins]
 When ingesting your documents, you can build an index of document summaries along with the document. These summaries can be used by the Semantic Similarity Search algorithm (e.g. K-Nearest Neighbor) to improve retrieval results and reduce retrieval latency.
 
 ## [Semantic Similarity Search with Re-Ranking](05_Semantic_Search_with_Reranking/) [30 mins]
