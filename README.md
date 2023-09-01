@@ -56,20 +56,20 @@ The key abstractions used in this workshop are as follows:
  The orchestrator coordinates all parts of the RAG workflow.
 
 # Labs
-Each lab handles its own data ingestion (PDFs, text, etc), vector storage (FAISS, LlamaIndex, ChromaDB, etc), and RAG orchestration (LangChain, LlamaIndex)
+Each lab handles its own data ingestion (PDFs, text, etc), vector storage (FAISS, LlamaIndex, ChromaDB, etc), and RAG orchestration (LangChain, LlamaIndex). As such, each lab can be run independently - and does not depend on a previous lab.
 
 Below is a high-level overview of the labs in this workshop which follow the RAG workflow as shown in the figure below:
 
 ![](img/rag-overview.png)
 
-## Semantic Similarity Search [Estimated time to complete - 30 mins]
+## [Semantic Similarity Search](02_Semantic_Search/) [Estimated time to complete - 30 mins]
 Semantic search uses vector embedding representations of documents to perform searches in higher-dimensional vector spaces. Semantic Similarity Search often out performs basic keyword search which simply compares the number of keywords and phrases shared between documents.
 
-## Semantic Similarity Search with Metadata Filtering [Estimated time to complete - 30 mins]
+## [Semantic Similarity Search with Metadata Filtering](03_Semantic_Search_with_Metadata_Filtering/) [Estimated time to complete - 30 mins]
 When ingesting data into your system, you can add optional metadata such as "year" or "department".  This metadata can be used to filter your queries when retrieving documents through Semantic Similarity Search, for example. This reduces the data used to augment the prompt - and ultimately helps to improve the relevancy of the results from the LLM.
 
-## K-Nearest Neighbor (KNN) Search with Document Summaries [Estimated time to complete - 30 mins]
+## [K-Nearest Neighbor (KNN) Search with Document Summaries](04_KNN_with_Document_Summaries/) [Estimated time to complete - 30 mins]
 When ingesting your documents, you can build an index of document summaries along with the document. These summaries can be used by the Semantic Similarity Search algorithm (e.g. K-Nearest Neighbor) to improve retrieval results and reduce retrieval latency.
 
-## Semantic Similar Search with Re-Ranking [Estimated time to complete - 30 mins]
+## [Semantic Similar Search with Re-Ranking](05_Semantic_Search_with_Reranking/) [Estimated time to complete - 30 mins]
 You can improve result relevancy by adding an extra re-rank step in the retrieval process. The re-ranking often includes a diversification factor to introduce a bit of diversity in the results. This allows for some results to rank higher - even if they're not scored highest by the Semantic Similarity Search algorithm.
