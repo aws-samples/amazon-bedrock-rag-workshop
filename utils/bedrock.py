@@ -72,7 +72,8 @@ def get_bedrock_client(
 
     bedrock_client = session.client(
         service_name="bedrock",
-        config=retry_config
+        config=retry_config,
+        **boto3_kwargs
         )
 
     print("boto3 Bedrock client successfully created!")
